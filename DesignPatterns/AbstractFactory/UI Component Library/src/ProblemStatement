@@ -1,0 +1,35 @@
+Problem Statement: Design a Coffee Ordering System
+Design a coffee ordering system for a café. The system should allow customers to order different types of coffee, with the flexibility to add multiple customizations like milk, sugar, whipped cream, or caramel syrup. The design should be extensible so that adding new customizations in the future doesn’t require modifying the existing code.
+
+Requirements
+Customers can select a base coffee (e.g., Espresso, Latte, Cappuccino).
+
+They can add zero or more add-ons like:
+
+Milk
+
+Sugar
+
+Whipped Cream
+
+Caramel Syrup
+
+Each add-on has a different cost, and the total cost should be calculated based on the selected coffee and applied add-ons.
+
+Provide a receipt with the final bill that lists the base coffee and all applied add-ons.
+
+Constraints
+The system should follow Open/Closed Principle — it should be easy to add new add-ons without modifying existing classes.
+
+The implementation should demonstrate the use of the Decorator Pattern to layer add-ons dynamically.
+
+Follow-Up Questions
+How will you ensure the design is flexible enough to add new add-ons in the future?
+
+How would you implement a feature to apply seasonal discounts to specific coffee or add-ons?
+
+What would be the performance implications of using multiple decorators?
+
+How would you handle edge cases like invalid add-ons or zero add-ons?
+
+This problem is great for evaluating the candidate's understanding of Object-Oriented Design principles, particularly the Decorator Pattern, and their ability to write clean, maintainable code.
