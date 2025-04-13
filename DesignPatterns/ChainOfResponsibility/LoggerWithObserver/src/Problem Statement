@@ -1,0 +1,33 @@
+Problem Statement: Design a Logger System
+Design a Logger system that supports logging messages at different levels (e.g., INFO, DEBUG, ERROR, WARN) and writes them to multiple outputs (e.g., console, file, database). The system should be efficient, scalable, and extensible.
+
+Requirements:
+Logging Levels: Support the following logging levels: INFO, DEBUG, ERROR, WARN. Allow configuration of the minimum level to be logged (e.g., if set to WARN, only WARN and ERROR messages should be logged).
+
+Log Output: Implement multiple output channels like:
+
+Console Output: Print logs to the console.
+
+File Output: Write logs to a file.
+
+Database Output: Store logs in a database.
+
+Thread Safety: Ensure thread-safe logging as multiple threads may log messages simultaneously.
+
+Extensibility: Allow adding new log levels and new types of output channels without modifying the existing logger.
+
+Filtering and Formatting:
+
+Support log message filtering based on log levels.
+
+Provide the ability to customize log message formats (e.g., "[LEVEL] Timestamp - Message").
+
+Error Handling: Ensure log failures in one output channel do not block other outputs.
+
+Additional Considerations (Optional):
+Support asynchronous logging for better performance.
+
+Provide an option to rotate log files after reaching a certain size.
+
+Implement log aggregation if needed for distributed systems.
+
